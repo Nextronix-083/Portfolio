@@ -60,9 +60,9 @@ export function NetworkTopology() {
       const linkDistance = Math.min(170, Math.max(110, width / 9));
 
       for (let i = 0; i < nodes.length; i++) {
-        const a = nodes[i];
+        const a = nodes[i]!;
         for (let j = i + 1; j < nodes.length; j++) {
-          const b = nodes[j];
+          const b = nodes[j]!;
           const dx = a.x - b.x;
           const dy = a.y - b.y;
           const dist = Math.hypot(dx, dy);

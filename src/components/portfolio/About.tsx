@@ -9,7 +9,7 @@ export function QuickProfile() {
     <div className="border-t border-border bg-surface/40">
       <div className="mx-auto grid max-w-6xl gap-4 px-5 py-10 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
         {profile.quickFacts.map((fact, i) => {
-          const Icon = icons[i % icons.length];
+          const Icon = icons[i % icons.length] ?? GraduationCap;
           return (
             <div
               key={fact.label}
