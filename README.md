@@ -1,14 +1,18 @@
-# Welcome to your Lovable project
+# Nazmul's Nexus
+
+Build a modern, highly professional personal portfolio website for Nazmul Hosen (Information & Communication Engineer) based on the attached CV and specifications. Dark technical theme (deep charcoal/near-black, cyan/electric blue accents), sticky frosted navbar, interactive network topology hero graphic, quick profile cards, about section, vertical experience timeline (DIU Teaching Assistant and Speed Net NOC), project cards with detailed modals (Heart Disease Prediction, Campus Compass, Gold Price Predictor), research section (cardiovascular risk assessment manuscript in prep), categorized skills (no progress bars), MTCNA and OSTAD certifications, education timeline, volunteering, career focus tracks, and contact section with mailto/tel and CV download. All data structured in modular config files with clean placeholders for URLs.
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://nazmul-port-forge.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/cd2edc59-5e89-4448-be73-5ef2a051a934).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +24,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
