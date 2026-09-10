@@ -82,7 +82,7 @@ export function Volunteering() {
   return (
     <Section
       label="Volunteering"
-      title="Community &amp; peer learning"
+      title="Community & peer learning"
       intro="Supporting junior students outside the classroom."
     >
       <div className="grid gap-5 md:grid-cols-2">

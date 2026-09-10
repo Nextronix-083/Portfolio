@@ -83,7 +83,7 @@ export function Hero() {
               </div>
             </div>
             <div className="mt-6 space-y-3 font-mono text-xs">
-              <Row k="status" v="Open to lecturer &amp; network roles" />
+              <Row k="status" v="Open to lecturer & network roles" />
               <Row k="cgpa" v="3.77 / 4.00" />
               <Row k="cert" v="MTCNA (MikroTik)" />
               <Row k="stack" v="RouterOS · Python · Flutter" />
